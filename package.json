@@ -7,7 +7,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "predeploy": "yarn generate && touch out/.nojekyll",
+    "predeploy": "yarn generate && touch .output/public/.nojekyll",
     "deploy": "yarn predeploy && gh-pages -d dist -t true"
   },
   "devDependencies": {
