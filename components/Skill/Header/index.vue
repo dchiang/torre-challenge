@@ -9,7 +9,9 @@
 <template>
   <v-app-bar theme="dark">
     <template v-slot:prepend>
-      <v-btn icon="mdi-close"></v-btn>
+      <NuxtLink to="/">
+        <v-btn color="white" icon="mdi-close"></v-btn>
+      </NuxtLink>
     </template>
     <v-app-bar-title>
       <svg
