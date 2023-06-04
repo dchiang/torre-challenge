@@ -2,6 +2,9 @@
 import { resolve } from 'path';
 
 export default defineNuxtConfig({
+  app: {
+    baseURL: '/torre-challenge/',
+  },
   alias: {
     '@': resolve(__dirname, '/'),
   },
