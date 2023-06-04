@@ -3,9 +3,6 @@
     props: {
       skill: Object,
     },
-    mounted: function () {
-      console.log("skill",this.skill);
-    },
   };
 </script>
 
