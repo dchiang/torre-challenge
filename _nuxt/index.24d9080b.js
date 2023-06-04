@@ -1,0 +1,1 @@
+import{_ as t}from"./nuxt-link.0e4f2ba8.js";import{a as o,o as n,b as s,e as a,w as c,f as _,F as r,h as l}from"./entry.5cb1b5af.js";const i={},d=l("div",null,"Hello",-1);function f(m,u){const e=t;return n(),s(r,null,[d,a(e,{to:"/skills"},{default:c(()=>[_("Skills")]),_:1})],64)}const k=o(i,[["render",f]]);export{k as default};
