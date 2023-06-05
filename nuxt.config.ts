@@ -11,6 +11,7 @@ export default defineNuxtConfig({
   css: ['~/assets/main.scss'],
   typescript: {
     shim: false,
+    strict: true,
   },
   modules: ['@invictus.codes/nuxt-vuetify'],
   vuetify: {
